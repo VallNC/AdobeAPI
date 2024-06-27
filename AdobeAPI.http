@@ -1,0 +1,6 @@
+@AdobeAPI_HostAddress = http://localhost:5153
+
+GET {{AdobeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
