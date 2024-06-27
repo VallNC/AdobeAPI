@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdobeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44c027612ed7816c32d279b8eb3f83a31afd130d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be329bdff8b2096afddefe5ff8fd8653b7b0ee4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdobeAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdobeAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
