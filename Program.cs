@@ -1,3 +1,5 @@
+using AdobeAPI.Models.Magento;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<LoginModel>();
+builder.Services.AddTransient<MagentoModel>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,8 +27,8 @@ if (builder.Environment.IsDevelopment())
         options.RoutePrefix = string.Empty;
     });
 }
-
-app.UseHttpsRedirection();
+//Enable for HTTPS
+//app.UseHttpsRedirection();
 
 var summaries = new[]
 {
@@ -62,3 +65,4 @@ app.Run();
 //{
 //    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 //}
+//Test
